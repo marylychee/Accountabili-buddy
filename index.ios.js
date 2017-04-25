@@ -17,6 +17,7 @@ import promiseMiddleware from 'redux-promise-middleware';
 import thunk from 'redux-thunk';
 import rootReducer from './src/reducers';
 
+import Header from './src/components/header'
 import Login from './src/containers/Login';
 import Register from './src/containers/Register';
 
@@ -28,7 +29,7 @@ export default class Accountabilibuddy extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Text>App Works!</Text>
+        <Header headerText={'accountable'}/>
       </Provider>
     );
   }
