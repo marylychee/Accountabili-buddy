@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import Camera from 'react-native-camera';
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
