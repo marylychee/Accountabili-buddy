@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text, StyleSheet } from 'react-native';
 import { Button, CardSection, Card, Input } from '../components/common';
 import { connect } from 'react-redux';
-import { FBLogin, FBLoginManager } from 'react-native-facebook-login';
+// import { FBLogin, FBLoginManager } from 'react-native-facebook-login';
 import { emailChanged, passwordChanged, loginUser } from '../actions';
 
 const mapStateToProps = (state) => {
